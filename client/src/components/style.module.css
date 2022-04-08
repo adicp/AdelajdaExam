@@ -1,0 +1,188 @@
+.allcomands {
+    /* align-items: flex-start; */
+    text-align: start;
+}
+h2 {
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.listgray {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: rgb(230, 230, 230);
+
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+
+}
+
+.add {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+
+/* Manage Pets */
+/* .formcolumn label{
+    padding: 10px;
+    font-weight: bold;
+} */
+.managebar {
+    width: 90%;
+    padding-right: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.manage {
+    width: 90%;
+    height: 40%;
+    border: 2px solid lightslategray;
+}
+.manageform {
+    /* width: 90%;
+    height: 40%; */
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 2px solid lightslategray; */
+    padding: 10px;
+    text-align: start;
+    margin-left: 20px;
+    align-items: baseline;
+}
+.marginformcolm {
+    margin-right: 50px;
+}
+.marginformcolm ul {
+    padding-inline-start: 0px;
+}
+#managelabels {
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.addlikes {
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 15px;
+
+}
+.delete {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    padding: 20px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.mainbar {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    
+}
+    .mainbarelement{
+        padding-right: 10px;
+        border-right: 2px solid black;
+    }
+
+.commandbox {
+    border: 2px solid lightslategray;
+    margin: 20px;
+    height: 90vh;
+}
+
+.commandrow {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    border-bottom: 2px solid darkslategray ;
+}
+/* Form */
+
+.formmain {
+    width: 700px;
+    height: 30%;
+    border: 2px solid lightslategray;
+    padding: 10px;
+    text-align: start;
+}
+.formmain button {
+
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    /* margin-right: 50px; */
+    font-size: 15px;
+}
+.form {
+    display: flex;
+    align-items: baseline;
+}
+.formcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 100px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.formcolumn label{
+    padding: 10px;
+    /* font-weight: bold; */
+}
+.formcolumn input {
+    /* padding: 5px; */
+    border: 2px solid black;
+}
+
+/* AllPets */
+
+/* .grayBckCol {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: lightslategray;
+}
+.defaultBckCol {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: whitesmoke;
+} */
